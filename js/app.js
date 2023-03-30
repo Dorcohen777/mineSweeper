@@ -241,7 +241,7 @@ function onRightClick() {
     playFlag() // play sound
 
     // if flag already true then unflag
-    if (currCell.isFlagged === true) {
+    if (currCell.isFlagged) {
         console.log('flag click')
         // updating the MODEL
         currCell.isFlagged = false
@@ -250,6 +250,8 @@ function onRightClick() {
         renderCell(currCell, '')
 
         gFlagsAmount++
+        elFlagAmount.innerHTML = gFlagsAmount
+        return
     }
     gFlagsAmount--
 
