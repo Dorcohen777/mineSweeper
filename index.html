@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>minesweeper</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body onload="onInit()">
+    <div class="div-main">
+        <h1>Mines Sweeper ⛏️</h1>
+        <h4>LIVES LEFT <span class="span-lives">💗💗💗 </span> </h2>
+        <div class="div-icons">
+            <h2>🚩 <span class="span-flag"></span></h2>
+            <h3 class="h3-feel"></h3>
+            <h2>⏲️ <span class="span-timer">0</span></h2>   
+        </div>
+
+        <div class="div-buttons">
+            <button onclick="onEasyLevel()">Easy</button> 
+            <button onclick="onMediumLevel()">Medium</button> 
+            <button onclick="onHardLevel()">Hard</button> 
+            
+        </div>
+
+        <div class="board-container">
+
+        </div>
+
+        <div><h5 class="h5-credit">Created By Dor Cohen</h2></div>
+
+        
+    </div>
+
+    <script src="js/app.js"></script>
+    <script src="js/utils.js"></script>
+    <script src="js/levels.js"></script>
+</body>
+
+</html>

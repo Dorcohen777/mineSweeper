@@ -1,0 +1,93 @@
+body {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.div-main {
+    background-color: #002a57;
+    width: 40vw;
+    margin: 2% auto;
+    color: #ecf7fa;
+    padding: 50px;
+    border-radius: 30px;
+
+    box-shadow: 0px 2px 13px 8px rgba(0, 0, 0, 0.36);
+    -webkit-box-shadow: 0px 2px 13px 8px rgba(0, 0, 0, 0.36);
+    -moz-box-shadow: 0px 2px 13px 8px rgba(0, 0, 0, 0.36);
+}
+
+.div-main h1 {
+    margin: 0
+}
+
+.img-icon {
+    width: 70px;
+}
+
+.div-main h4 {
+    background-color: #ecf7fa;
+    font-size: 22px;
+    color: #002a57;
+    width: 20%;
+    margin: 15px auto;
+    padding: 4px;
+    border-radius: 13%;
+}
+
+.span-lives {
+    display: block;
+}
+
+table {
+    padding: 10px;
+    margin: auto;
+    background-color: #ecf7fa;
+    color: black;
+    width: 20%;
+}
+
+table td {
+    border: 1px solid black;
+    padding: 15px;
+    cursor: pointer;
+    transition: 0.5s;
+
+}
+
+table td:hover {
+    background-color: #98c5f4;
+}
+
+.h3-feel {
+    font-size: 35px;
+}
+
+.div-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+
+.div-buttons button {
+    padding: 12px;
+    margin: 13px 10px;
+    background-color: #ecf7fa;
+    border-radius: 15px;
+    font-weight: bold;
+    font-size: 14px;
+    color: #002a57;
+    cursor: pointer;
+    border-style: none;
+    transition: 0.4s;
+}
+
+.div-buttons button:hover {
+    background-color: #312db3;
+    color: #fffcfb;
+}
+
+.h5-credit {
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
